@@ -28,6 +28,7 @@ def solver(data, slide_window=3):
             print(f"{current_window} is greater than {next_window}")
     return count
 
+
 if __name__ == "__main__":
     data = data_to_list("data.txt")
     count = solver(data)
